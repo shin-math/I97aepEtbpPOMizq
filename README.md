@@ -107,3 +107,4 @@ Feature importance shows that month of campaign, contact type, and marital statu
 
 Segmentation analysis helps target high-probability clients, e.g., students, retired, high-balance clients in October and March.
 
+To maximize campaign effectiveness, focus on targeting high-probability clients based on these features, particularly Month, Contact, Job, and Balance, while tailoring messaging for the audience.
