@@ -55,6 +55,7 @@ Housing/Loan: Clients without housing loans are slightly more responsive.
 
 Duration is highly correlated with target (y) because the longer the call, the higher the chance of subscription.
 In a real-world predictive scenario, duration is unknown before the call starts, so using it would be data leakage. Dropped duration to make predictions realistic and deployable.
+Contact is also dropped because of the unknown values.
 
 # Step 3: Baseline Model Training
 
