@@ -4,20 +4,23 @@
 
 **Python | Pandas | Scikit-learn | XGBoost | Jupyter Notebook**
 
-## Table of Contents
-Executive Summary
-Project Background
-Problem Statement
-Dataset Overview
-Project Workflow
-Technologies & Tools
-Model Performance
-Feature Importance
-Customer Segmentation Insights
-Business Impact
-How to Reproduce
-Conclusion
-For Hiring Managers & Recruiters
+##  Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Project Background](#project-background)
+- [Problem Statement](#problem-statement)
+- [Dataset Overview](#dataset-overview)
+- [Project Workflow](#project-workflow)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Feature Selection & Preprocessing](#feature-selection--preprocessing)
+- [Baseline Model Development](#baseline-model-development)
+- [Hyperparameter Tuning](#hyperparameter-tuning)
+- [Model Evaluation](#model-evaluation)
+- [Feature Importance](#feature-importance)
+- [Customer Segmentation Insights](#customer-segmentation-insights)
+- [Business Impact](#business-impact)
+- [Conclusion](#conclusion)
+- [For Hiring Managers](#for-hiring-managers)
 
 ## Executive Summary
 
@@ -59,7 +62,7 @@ Key challenges addressed:
 - **Target Variable:**
    - y = yes → Subscribed
    - y = no → Not subscribed
-## Feature Categories
+# Feature Categories
 **Demographic Features**
 - age
 - job
@@ -91,7 +94,7 @@ This confirms a **class imbalance problem.**
 
 The project follows a structured **machine learning lifecycle.**
 
-## Step 1: Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Performed:
 
@@ -118,7 +121,7 @@ Performed:
 
 These findings guided later modeling decisions.
 
-## Step 2: Feature Selection & Preprocessing
+## Feature Selection & Preprocessing
 
 Performed:
 
@@ -148,7 +151,7 @@ Dropping it ensures:
 - Model reliability
 - Production readiness
 
-## Step 3: Baseline Model Training
+## Baseline Model Development
 
 Initial model performance evaluated using:
 
@@ -169,7 +172,7 @@ Observation:
 
 Model predicted majority class well but needed improvement for minority class detection.
 
-## Step 4: Hyperparameter Optimization (Randomized Search)
+## Hyperparameter Tuning
 
 Used:
 
@@ -194,7 +197,7 @@ Improves model performance
 
 Improved model generalization.
 
-## Step 5: Final Model Evaluation
+## Model Evaluation
 
 Evaluated on unseen test dataset.
 
@@ -212,7 +215,7 @@ This confirms:
 - Successful model optimization
 - Reliable predictive performance
 
-## Feature Importance Analysis
+## Feature Importance
 
 Feature importance was extracted from the final trained model.
 
@@ -316,7 +319,7 @@ Key strengths include:
 
 The final model successfully predicts customer subscription behavior and provides actionable insights for improving marketing efficiency.
 
-## For Hiring Managers & Recruiters
+## For Hiring Managers
 
 This project demonstrates:
 
